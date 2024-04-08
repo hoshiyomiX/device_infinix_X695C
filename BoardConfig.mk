@@ -6,6 +6,14 @@
 
 DEVICE_PATH := device/infinix/X695C
 
+AB_OTA_UPDATER := false
+AB_OTA_PARTITIONS += \
+    boot \
+    product \
+    system \
+    system_ext \
+    vbmeta
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
