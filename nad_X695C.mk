@@ -14,13 +14,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from Infinix-X695C device
 $(call inherit-product, device/infinix/X695C/device.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common NusantaraProject stuff.
+$(call inherit-product, vendor/nad/config/common.mk)
 
 DEVICE_MAINTAINER := xoo2001
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := arrow_X695C
+PRODUCT_NAME := nad_X695C
 PRODUCT_DEVICE := X695C
 PRODUCT_MANUFACTURER := INFINIX
 PRODUCT_BRAND := Infinix
