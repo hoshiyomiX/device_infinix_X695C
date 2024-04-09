@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_X695C.mk
+    $(LOCAL_DIR)/nad_X695C.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_X695C-userdebug
+    nad_X695C-userdebug
