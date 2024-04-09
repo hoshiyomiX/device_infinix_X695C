@@ -15,7 +15,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, device/infinix/X695C/device.mk)
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 DEVICE_MAINTAINER := xoo2001
 TARGET_BOOT_ANIMATION_RES := 1080
