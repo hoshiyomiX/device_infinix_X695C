@@ -1,4 +1,4 @@
-echo 'Start Cloning repos for hot10'
+echo 'Start Cloning repos'
 
 echo 'Cloning Vendor Ims [1/4]'
 # Vendor Ims
