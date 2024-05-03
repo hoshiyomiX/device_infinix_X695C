@@ -163,13 +163,13 @@ TARGET_NO_RECOVERY := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 ##BOARD_INCLUDE_DTB_IN_BOOTIMG :=
 
-##AB_OTA_UPDATER := true
-##AB_OTA_PARTITIONS += \
-##    boot \
-##    product \
-##    system \
-##    system_ext \
-##    vbmeta
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    boot \
+    product \
+    system \
+    system_ext \
+    vbmeta
 
 ## For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
